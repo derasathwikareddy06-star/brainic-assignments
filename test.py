@@ -17,6 +17,7 @@ else:
             break
 
     print(prime)
+##ATM Withdrawal
     balance = int(input("Enter balance: "))
 amount = int(input("Enter withdrawal amount: "))
 
@@ -27,3 +28,19 @@ elif amount % 100 != 0:
 else:
     print("Withdrawal Successful")
     print("Remaining Balance:", balance - amount)
+   
+    # BMI Calculator
+
+weight = float(input("Enter weight (kg): "))
+height = float(input("Enter height (m): "))
+
+bmi = weight / (height ** 2)
+
+if bmi < 18.5:
+    print("Underweight")
+elif bmi < 25:
+    print("Normal")
+elif bmi < 30:
+    print("Overweight")
+else:
+    print("Obese")
