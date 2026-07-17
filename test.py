@@ -44,3 +44,14 @@ elif bmi < 30:
     print("Overweight")
 else:
     print("Obese")
+   ## Movie Ticket Price
+age = int(input("Enter age: "))
+
+if age < 5:
+    print("Free Ticket")
+elif age <= 18:
+    print("Ticket Price = ₹150")
+elif age <= 60:
+    print("Ticket Price = ₹250")
+else:
+    print("Ticket Price = ₹100")
